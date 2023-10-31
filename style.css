@@ -1,0 +1,326 @@
+body {background-color: rgb(251, 253, 253); }
+
+
+.btn {
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-radius: 0.5pc;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px ;
+    transition: 0.3s;
+  animation-name: example;
+  animation-duration: 4s;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+  }
+  .btn:hover {
+    background-color: #219e82;
+    color: white;
+    
+  }
+  
+  
+  @keyframes example {
+    from {background-color: rgb(247, 247, 247);}
+    to {background-color: #219e82;}
+  }
+  
+  
+
+  #btnn {
+    background-color: #219e82;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 0.5pc;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
+  #btnn:hover {opacity: 1;}
+
+ 
+
+
+.banner {
+
+  background-image: url("img/medicos8.jpg");
+  color: #ffffff;
+  opacity: 0.9;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top ;
+  background-attachment: fixed;
+  
+}
+
+#sec1 {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#sec1 h1 {
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+
+#sec1 p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+#sec2 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#sec2 h1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sec2 p {
+  
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+.cardd{
+  height: 250px;
+  border-radius: 1pc;
+  margin: 5px;
+  background-color: #acd4f0;
+}
+
+
+
+#cardd{
+  flex-direction: row;
+  
+}
+
+#cardd h1{
+  text-align:center ;
+  color: white;
+
+}
+
+#cardd p{
+  text-align:center ;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.btnnn{
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-radius: 0.5pc;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btnnn:hover {
+  background-color: #acd4f0;
+  color: white;
+  
+}
+
+.listagem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+
+}
+
+.listagemexameslista{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+
+}
+
+#lista {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #219e82;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sec3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#sec3 h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+ 
+}
+
+#sec3 h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#sec3 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+#sec4 {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#sec4 h1 {
+  
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sec4 p {
+  
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+#sec4 h5 {
+  
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+
+}
+
+.carddd{
+
+  height: 280px;
+  border-radius: 1pc;
+  margin: 5px;
+  background-color: #acd4f0;
+}
+
+
+
+#carddd{
+  
+ 
+  flex-direction: row;
+  
+}
+
+#carddd h1{
+  text-align:center ;
+  color: white;
+
+}
+
+#carddd p{
+  text-align:center ;
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.cardddd{
+  text-align:center ;
+  height: 220px;
+  border-radius: 1pc;
+
+
+  
+}
+
+
+
+#cardddd{
+  
+ 
+  flex-direction: row;
+  
+}
+
+#cardddd h1{
+  font-size: 50px;
+  text-align:center ;
+
+}
+
+
+#cardddd p{
+  text-align:center ;
+  
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
